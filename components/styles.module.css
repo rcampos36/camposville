@@ -1,0 +1,30 @@
+.primarybutton {
+    background-color: var(--primary-blue-color);
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secondarybtn {
+    background-color: var(--primary-yellow-color);
+    padding: .5rem 1rem;
+    color: var(--primary-blue-color);
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.outlinebtn {
+    background-color: white;
+    padding: .4rem 1rem;
+    color: var(--primary-blue-color);
+    border-radius: .5rem;
+    border: 1px solid var(--primary-blue-color);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
