@@ -6,7 +6,7 @@ import { FaArrowCircleRight } from "react-icons/fa"
 export default function aboutus() {
   return (
     <div className='bg-about-section w-full py-20'>
-        <div className='flex w-[1280px] mx-auto'>
+        <div className='flex w-[1080px] mx-auto'>
             <div className='w-1/2'>
                 <img className='object-cover' src='/images/aboutPhoto.png' alt='about photo' />
             </div>

@@ -7,7 +7,7 @@ export default function Whyus() {
         <div className='w-[1080px] mx-auto flex gap-10 mb-20'>
             <div className='flex flex-col gap-5 w-1/2'>
                 <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Why Choose Us?</p>
-                <h4 className={`${roboto.className} font-bold text-5xl`}>We do not buy from the open market & traders.</h4>
+                <h4 className={`${roboto.className} font-bold text-4xl`}>We do not buy from the open market & traders.</h4>
                 <p className='text-sm text-gray-400'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard  the 1500s, when an unknown</p>
                 <div className='flex justify-start'>
                     <p className={`${roboto.className} font-bold text-xs bg-[color:var(--primary-gray-color)] py-2 px-3 rounded-full flex items-center gap-2`}><FaRegDotCircle className='text-[color:var(--primary-green-color)] font-bold' />100% Natural Product</p>

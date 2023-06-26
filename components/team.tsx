@@ -6,7 +6,7 @@ export default function Team() {
     <div className='mt-20'>
         <div className='w-[1080px] flex flex-col gap-2 items-center mx-auto'>
             <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Team</p>
-            <h4 className={`${roboto.className} font-bold text-5xl`}>Our Organic Experts</h4>
+            <h4 className={`${roboto.className} font-bold text-4xl`}>Our Organic Experts</h4>
             <p className='text-gray-400 text-center text-sm w-2/3'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
             <div className='flex gap-2 justify-between mt-5'>
                 <div className='w-1/3' >
