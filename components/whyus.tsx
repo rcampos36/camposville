@@ -19,27 +19,27 @@ export default function Whyus() {
                 <p className='text-sm text-gray-400'>Filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing</p>
             </div>
             <div className='w-1/2 rounded-lg'>
-                <img className='rounded-3xl' src='/images/why-Photo.jpg' alt='why photo' />
+                <img className='rounded-3xl' src='./images/why-Photo.jpg' alt='why photo' />
             </div>
         </div>
         <div className='w-[1080px] mx-auto flex gap-10'>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='/images/why-icon.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src='./images/why-icon.png' alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Return Policy</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='/images/why-icon2.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src='./images/why-icon2.png' alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>100% Fresh</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='/images/why-icon3.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src='./images/why-icon3.png' alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Support 24/7</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='/images/why-icon4.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src='./images/why-icon4.png' alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Secured Payment</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>

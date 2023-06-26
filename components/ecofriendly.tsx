@@ -5,7 +5,7 @@ export default function Ecofriendly() {
   return (
     <div className="flex">
       <div>
-        <img src="/images/farmimage.png" alt="farm image" />
+        <img src="./images/farmimage.png" alt="farm image" />
       </div>
       <div className="flex justify-center items-center flex-col">
         <div className="flex flex-col gap-5 py-10 pl-16 justify-center w-full bg-white h-[75%] -ml-32 rounded-xl">

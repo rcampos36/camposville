@@ -15,7 +15,7 @@ export default function News() {
       </div>
       <div className='flex gap-5 justify-between'>
         <div className='relative'>
-          <img src='/images/news.png' alt='news' />
+          <img src='./images/news.png' alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -27,7 +27,7 @@ export default function News() {
           </div>
         </div>
         <div className='relative'>
-          <img src='/images/news2.png' alt='news' />
+          <img src='./images/news2.png' alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>

@@ -10,7 +10,7 @@ export default function Team() {
             <p className='text-gray-400 text-center text-sm w-2/3'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
             <div className='flex gap-2 justify-between mt-5'>
                 <div className='w-1/3' >
-                    <img src='/images/team.png' alt='team' />
+                    <img src='./images/team.png' alt='team' />
                     <div className='p-5 bg-[color:var(--secondary-gray-color)] hover:bg-white hover:shadow-xl rounded-br-2xl rounded-bl-3xl'>
                         <h4 className={`${roboto.className} font-bold text-sm`}>Giovani Bacardo</h4>
                         <div className='flex justify-between'>
@@ -25,7 +25,7 @@ export default function Team() {
                     </div>
                 </div>
                 <div className='w-1/3'>
-                    <img src='/images/team2.png' alt='team' />
+                    <img src='./images/team2.png' alt='team' />
                     <div className='p-5 bg-[color:var(--secondary-gray-color)] hover:bg-white hover:shadow-xl rounded-br-2xl rounded-bl-3xl'>
                         <h4 className={`${roboto.className} font-bold text-sm`}>Marianne Loreno</h4>
                         <div className='flex justify-between'>
@@ -40,7 +40,7 @@ export default function Team() {
                     </div>
                 </div>
                 <div className='w-1/3'>
-                    <img src='/images/team3.png' alt='team' />
+                    <img src='./images/team3.png' alt='team' />
                     <div className='p-5 bg-[color:var(--secondary-gray-color)] hover:bg-white hover:shadow-xl rounded-br-2xl rounded-bl-3xl'>
                         <h4 className={`${roboto.className} font-bold text-sm`}>Riga Pelore</h4>
                         <div className='flex justify-between'>

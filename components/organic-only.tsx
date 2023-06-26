@@ -4,7 +4,7 @@ import { FaPlayCircle } from "react-icons/fa";
 export default function OrganicOnly() {
   return (
     <div className='relative w-full'>
-        <img src='/images/OrganicOnly.jpg' alt='organic' />
+        <img src='./images/OrganicOnly.jpg' alt='organic' />
         <div className='absolute top-0 left-0 w-full mx-auto flex flex-col items-center gap-3 py-20'>
             <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Organic Only</p>
             <h4 className={`${roboto.className} font-bold text-4xl`}>Everyday Fresh & Clean</h4>

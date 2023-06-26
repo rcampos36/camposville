@@ -6,7 +6,7 @@ import { FaArrowCircleRight } from "react-icons/fa"
 export default function banner() {
   return (
     <div className='relative w-full'>
-        <img className='object-cover relative w-full' src='/images/Banner.jpg' alt='banner' />
+        <img className='object-cover relative w-full' src='./images/Banner.jpg' alt='banner' />
         <div className='absolute flex flex-col top-0 h-full justify-center w-full px-24 mx-auto'>
             <div className={`${yellowtail.className} w-[1280px] mx-auto`}>
                 <p className="yellowtail text-xl pl-20 text-green-300">100% Natural Foods</p>
