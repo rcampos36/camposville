@@ -1,7 +1,7 @@
 import React from 'react'
 import { yellowtail, roboto } from './styles/fonts'
 import Styles from "@/components/styles.module.css";
-import { FaArrowCircleRight } from "react-icons/fa"
+import { FaArrowCircleRight } from "react-icons/fa";
 
 export default function aboutus() {
   return (
