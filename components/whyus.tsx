@@ -1,5 +1,9 @@
-import { yellowtail, roboto } from './styles/fonts'
-import { FaRegDotCircle } from "react-icons/fa"
+import { yellowtail, roboto } from './styles/fonts';
+import { FaRegDotCircle } from "react-icons/fa";
+import WhyIconOne from "@/public/static/images/why-Icon.png";
+import WhyIconTwo from "@/public/static/images/why-Icon2.png";
+import WhyIconThree from "@/public/static/images/why-Icon3.png";
+import WhyIconFour from "@/public/static/images/why-Icon4.png";
 
 export default function Whyus() {
   return (
@@ -24,22 +28,22 @@ export default function Whyus() {
         </div>
         <div className='w-[1080px] mx-auto flex gap-10'>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='./static/images/why-icon.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src={WhyIconOne.src} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Return Policy</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='./static/images/why-icon2.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src={WhyIconTwo.src} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>100% Fresh</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='./static/images/why-icon3.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src={WhyIconThree.src} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Support 24/7</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src='./static/images/why-icon4.png' alt='why icon' />
+                <img className='w-[95px] h-[95px]' src={WhyIconFour.src} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Secured Payment</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
