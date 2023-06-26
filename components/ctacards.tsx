@@ -2,6 +2,7 @@ import React from 'react'
 import { roboto } from "./styles/fonts"
 import { yellowtail } from "./styles/fonts"
 import ImageOne from "@/public/static/images/Image.png";
+import ImageTwo from "@/public/static/images/Image2.png";
 
 export default function Ctacards() {
   return (
@@ -19,7 +20,7 @@ export default function Ctacards() {
       </div>
 
       <div className='relative w-1/2'>
-        <img className='' src='./static/images/image2.png' alt='image' />
+        <img className='' src={ImageTwo.src} alt='image' />
         <div className='absolute pl-5 pt-20 top-0'> 
           <div className={yellowtail.className}>
             <p className='yellowtail text-white'>Offer!!</p>
