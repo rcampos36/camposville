@@ -5,7 +5,7 @@ import Newsletter from "@/components/newsletter";
 
 export default function Team() {
   return (
-    <div className="mb-20">
+    <div className="">
       <div className="w-full relative">
         <img src={TeamBanner.src} alt="about banner" />
         <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
