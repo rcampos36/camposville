@@ -8,6 +8,7 @@ import Testimonials from '@/components/testimonials';
 import News from '@/components/news';
 import Ctas from '@/components/ctas';
 import { Container } from 'theme-ui';
+import Newsletter from '@/components/newsletter';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Ecofriendly />
         <Ctas />
         <News />
+        <Newsletter />
       </Container>
     </main>
   )

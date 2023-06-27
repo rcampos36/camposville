@@ -6,6 +6,7 @@ import Whyus from "@/components/whyus";
 import Team from "@/components/team";
 import Offers from "@/components/offers";
 import AboutBanner from "@/public/static/images/About-Banner.png";
+import Newsletter from '@/components/newsletter';
 
 
 
@@ -22,6 +23,7 @@ export default function About() {
       <Whyus />
       <Team />
       <Offers />
+      <Newsletter />
     </div>
   )
 }

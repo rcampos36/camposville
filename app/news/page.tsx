@@ -1,6 +1,7 @@
 import NewsCards from "@/components/news-cards";
 import { yellowtail, roboto } from "../../components/styles/fonts";
 import NewsBanner from "@/public/static/images/NewsBanner.png";
+import Newsletter from '@/components/newsletter';
 
 export default function News() {
   return (
@@ -12,6 +13,7 @@ export default function News() {
         </div>
       </div>
       <NewsCards />
+      <Newsletter />
     </div>
   )
 }
