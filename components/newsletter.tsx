@@ -2,7 +2,7 @@ import { yellowtail, roboto } from './styles/fonts';
 
 export default function Newsletter() {
   return (
-    <div className='relative my-10 w-[1080px] mx-auto py-20'>
+    <div className='relative w-[1080px] mx-auto py-20'>
       <img src='./static/images/newsletter-background.png' alt='nesletter' />
       <div className='absolute top-0 gap-5 items-center h-full w-full flex justify-between p-10'>
         <div className={`${roboto.className} font-bold text-4xl w-2/5 text-white`}>Subscribe to our Newsletter</div>
