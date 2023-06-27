@@ -28,15 +28,16 @@ export default function Footer() {
           </div>
           <p className='text-center text-sm w-[95%]'>Simply dummy text of the printing and typesetting industry. Lorem Ipsum simply dummy text of the printing </p>
           <div className="flex items-center gap-3">
-            <p><FaInstagram /></p>
-            <p><FaFacebookF /></p>
-            <p><FaTwitter /></p>
-            <p><FaPinterestP /></p>
+            <p className="text-md rounded-full bg-[color:var(--secondary-green-color)] p-2"><FaInstagram /></p>
+            <p className="text-md rounded-full bg-[color:var(--secondary-green-color)] p-2"><FaFacebookF /></p>
+            <p className="text-md rounded-full bg-[color:var(--secondary-green-color)] p-2"><FaTwitter /></p>
+            <p className="text-md rounded-full bg-[color:var(--secondary-green-color)] p-2"><FaPinterestP /></p>
           </div>
         </div>
         <div className="flex flex-1 items-end">
           <div className=''>
-            <ul className='flex gap-2 font-bold flex-col text-sm'>
+            <h4 className={`${roboto.className} font-bold text-xl mb-2`}>Menu</h4>
+            <ul className='flex gap-1 flex-col text-sm'>
               <Link className="" href="/">Home</Link>
               <Link className="" href="/about">About</Link>
               <Link className="" href="/shop">Shop</Link>
@@ -48,7 +49,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t pb-10 pt-2 flex items-center justify-center">
-        <p className="text-xs">Copyright © Camposville | Designed by Media703 Templates - Powered by Media703</p>
+        <p className="text-xs">Copyright © <strong>Camposville</strong> | Designed by <strong>Media703</strong> Templates - Powered by <strong>Media703</strong></p>
       </div>
     </div>
   )
