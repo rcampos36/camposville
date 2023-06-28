@@ -1,13 +1,20 @@
 import { yellowtail, roboto } from './styles/fonts';
 import Styles from "@/components/styles.module.css";
 import { FaArrowCircleRight, FaUserAlt } from "react-icons/fa"
+import News from "@/public/static/images/news.png";
+import NewsTwo from "@/public/static/images/news2.png";
+import NewsThree from "@/public/static/images/news3.png";
+import NewsFour from "@/public/static/images/news4.png";
+import NewsFive from "@/public/static/images/news5.png";
+import NewsSix from "@/public/static/images/news6.png";
+import Image from 'next/image';
 
 export default function NewsCards() {
   return (
     <div className='w-[1080px] mx-auto my-20'>
       <div className='flex gap-5 justify-between mb-20'>
         <div className='relative'>
-          <img src='./static/images/news.png' alt='news' />
+          <Image src={News} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -19,7 +26,7 @@ export default function NewsCards() {
           </div>
         </div>
         <div className='relative'>
-          <img src='./static/images/news2.png' alt='news' />
+          <Image src={NewsTwo} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -33,7 +40,7 @@ export default function NewsCards() {
       </div>
       <div className='flex gap-5 justify-between mb-20'>
         <div className='relative'>
-          <img src='./static/images/news3.png' alt='news' />
+          <Image src={NewsThree} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -45,7 +52,7 @@ export default function NewsCards() {
           </div>
         </div>
         <div className='relative'>
-          <img src='./static/images/news4.png' alt='news' />
+          <Image src={NewsFour} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -59,7 +66,7 @@ export default function NewsCards() {
       </div>
       <div className='flex gap-5 justify-between mb-20'>
         <div className='relative'>
-          <img src='./static/images/news5.png' alt='news' />
+          <Image src={NewsFive} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
@@ -71,7 +78,7 @@ export default function NewsCards() {
           </div>
         </div>
         <div className='relative'>
-          <img src='./static/images/news6.png' alt='news' />
+          <Image src={NewsSix} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
             <p className={`${roboto.className} font-bold text-sm flex flex-col items-center w-10 h-10`}>25 <span>Nov</span></p>
           </div>
