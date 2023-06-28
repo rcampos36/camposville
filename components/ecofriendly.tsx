@@ -8,7 +8,7 @@ export default function Ecofriendly() {
         <img src="./static/images/farmimage.png" alt="farm image" />
       </div>
       <div className="flex justify-center items-center flex-col">
-        <div className="flex flex-col gap-5 py-10 pl-16 justify-center w-full bg-white h-[75%] -ml-32 rounded-xl">
+        <div className="flex flex-col gap-5 pr-16 max-w-[515px] py-10 pl-16 justify-center w-full bg-white h-[75%] -ml-32 rounded-xl">
           <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Eco Friendly</p>
           <h4 className={`${roboto.className} font-bold text-4xl`}>Camposville is a Friendly Organic Farm and Store</h4>
           <div>
