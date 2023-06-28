@@ -1,10 +1,12 @@
 import { yellowtail, roboto } from './styles/fonts';
 import { FaPlayCircle } from "react-icons/fa";
+import Image from 'next/image';
+import Organic from "@/public/static/images/OrganicOnly.jpg";
 
 export default function OrganicOnly() {
   return (
     <div className='relative w-full pb-20'>
-        <img src='./static/images/OrganicOnly.jpg' alt='organic' />
+        <Image src={Organic} alt='organic' />
         <div className='absolute top-0 left-0 w-full mx-auto flex flex-col items-center gap-3 py-20'>
             <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Organic Only</p>
             <h4 className={`${roboto.className} font-bold text-4xl`}>Everyday Fresh & Clean</h4>
