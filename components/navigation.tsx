@@ -30,8 +30,8 @@ export default function navigation() {
               )}
           </button>
       </div>
-      <div className={`${menu ? 'block' : 'max-lg:hidden'}`}>
-          <ul className='flex gap-10 font-bold'>
+      <div className={`${menu ? 'block open' : 'max-lg:hidden closed'}`}>
+          <ul className='main-nav flex gap-10 font-bold'>
             <Link className="transition duration-150 border-b-2 border-transparent hover:border-[color:var(--primary-green-color)] active:border-[color:var(--primary-green-color)] focus:border-[color:var(--primary-green-color)]" href="/">Home</Link>
             <Link className="transition duration-150 border-b-2 border-transparent hover:border-[color:var(--primary-green-color)] active:border-[color:var(--primary-green-color)] focus:border-[color:var(--primary-green-color)]" href="/about">About</Link>
             <Link className="transition duration-150 border-b-2 border-transparent hover:border-[color:var(--primary-green-color)] active:border-[color:var(--primary-green-color)] focus:border-[color:var(--primary-green-color)]" href="/team">Team</Link>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Footer() {
   return (
     <div>
-      <div className='w-[1080px] mx-auto flex items-start pb-10 gap-20'>
+      <div className='w-[1080px] mx-auto flex items-start pb-10 gap-20 max-sm:w-full max-sm:flex-col'>
         <div className="flex flex-col items-end justify-end gap-3 flex-1">
           <h4 className={`${roboto.className} font-bold text-xl`}>Contact Us</h4>
           <div className="flex items-end flex-col">
