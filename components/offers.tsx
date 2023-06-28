@@ -1,5 +1,10 @@
 import React from 'react';
-import { yellowtail, roboto } from './styles/fonts'
+import { yellowtail, roboto } from './styles/fonts';
+import Image from 'next/image';
+import Spices from "@/public/static/images/spices.png";
+import Seeds from "@/public/static/images/seeds.png";
+import Fruits from "@/public/static/images/fruits.png";
+import Vegetables from "@/public/static/images/vegetables.png";
 
 export default function Offers() {
   return (
@@ -9,19 +14,19 @@ export default function Offers() {
             <h4 className={`${roboto.className} font-bold text-3xl`}>What We Offer For You</h4>
             <div className='flex gap-4'>
                 <div className='w-1/4 flex flex-col items-center gap-2'>
-                    <img src='./static/images/spices.png' alt='offers' />
+                    <Image src={Spices} alt='offers' />
                     <p>Spices</p>
                 </div>
                 <div className='w-1/4 flex flex-col items-center gap-2'>
-                    <img src='./static/images/seeds.png' alt='offers' />
+                    <Image src={Seeds} alt='offers' />
                     <p>Seeds</p>
                 </div>
                 <div className='w-1/4 flex flex-col items-center gap-2'>
-                    <img src='./static/images/fruits.png' alt='offers' />
+                    <Image src={Fruits} alt='offers' />
                     <p>Fruits</p>
                 </div>
                 <div className='w-1/4 flex flex-col items-center gap-2'>
-                    <img src='./static/images/vegetables.png' alt='offers' />
+                    <Image src={Vegetables} alt='offers' />
                     <p>Vegetables</p>
                 </div>
             </div>

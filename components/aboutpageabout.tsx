@@ -20,13 +20,13 @@ export default function aboutus() {
                 <p className='text-gray-400'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                 <div className='flex mt-2'>
                     <div className='flex items-center'>
-                        <img className='w-[60px] h-[60px]' src={IconOne.src} alt='icon' />
+                        <Image className='w-[60px] h-[60px]' src={IconOne} alt='icon' />
                         <div>
                             <h4 className={`${roboto.className} text-xl font-bold`}>Modern Agriculture Equipment</h4>
                         </div>
                     </div>
                     <div className='flex items-center'>
-                        <img className='w-[60px] h-[60px]' src={IconTwo.src} alt='icon' />
+                        <Image className='w-[60px] h-[60px]' src={IconTwo} alt='icon' />
                         <div>
                             <h4 className={`${roboto.className} text-xl font-bold`}>No growth hormones are used</h4>
                         </div>

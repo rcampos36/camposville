@@ -4,6 +4,8 @@ import WhyIconOne from "@/public/static/images/why-Icon.png";
 import WhyIconTwo from "@/public/static/images/why-Icon2.png";
 import WhyIconThree from "@/public/static/images/why-Icon3.png";
 import WhyIconFour from "@/public/static/images/why-Icon4.png";
+import Image from 'next/image';
+import WhyPhoto from "@/public/static/images/why-Photo.jpg";
 
 export default function Whyus() {
   return (
@@ -23,27 +25,27 @@ export default function Whyus() {
                 <p className='text-sm text-gray-400'>Filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing</p>
             </div>
             <div className='w-1/2 rounded-lg'>
-                <img className='rounded-3xl' src='./static/images/why-Photo.jpg' alt='why photo' />
+                <Image className='rounded-3xl' src={WhyPhoto} alt='why photo' />
             </div>
         </div>
         <div className='w-[1080px] mx-auto flex gap-10'>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src={WhyIconOne.src} alt='why icon' />
+                <Image className='w-[95px] h-[95px]' src={WhyIconOne} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Return Policy</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src={WhyIconTwo.src} alt='why icon' />
+                <Image className='w-[95px] h-[95px]' src={WhyIconTwo} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>100% Fresh</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src={WhyIconThree.src} alt='why icon' />
+                <Image className='w-[95px] h-[95px]' src={WhyIconThree} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Support 24/7</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>
             <div className='bg-white rounded-3xl flex flex-col gap-2 w-1/4 justify-center items-center text-center py-10 px-7'>
-                <img className='w-[95px] h-[95px]' src={WhyIconFour.src} alt='why icon' />
+                <Image className='w-[95px] h-[95px]' src={WhyIconFour} alt='why icon' />
                 <p className={`${roboto.className} font-bold text-sm`}>Secured Payment</p>
                 <p className='text-sm'>Simply dummy text of the printintypesetting industry.</p>
             </div>

@@ -1,9 +1,11 @@
 import { yellowtail, roboto } from './styles/fonts';
+import Image from 'next/image';
+import NewsletterBG from "@/public/static/images/newsletter-background.png";
 
 export default function Newsletter() {
   return (
     <div className='relative w-[1080px] mx-auto py-20'>
-      <img src='./static/images/newsletter-background.png' alt='nesletter' />
+      <Image src={NewsletterBG} alt='nesletter' />
       <div className='absolute top-0 gap-5 items-center h-full w-full flex justify-between p-10'>
         <div className={`${roboto.className} font-bold text-4xl w-2/5 text-white`}>Subscribe to our Newsletter</div>
         <form className='flex gap-1' action="/send-data-here" method="post">
