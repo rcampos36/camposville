@@ -7,6 +7,7 @@ import Team from "@/components/team";
 import Offers from "@/components/offers";
 import AboutBanner from "@/public/static/images/About-Banner.png";
 import Newsletter from '@/components/newsletter';
+import Image from "next/image";
 
 
 
@@ -14,7 +15,7 @@ export default function About() {
   return (
     <div>
       <div className="w-full relative">
-        <img src={AboutBanner.src} alt="about banner" />
+        <Image src={AboutBanner} alt="about banner" />
         <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
           <h1 className={`${roboto.className} font-bold text-6xl`}>About Us</h1>
         </div>

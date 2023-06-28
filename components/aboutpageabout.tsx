@@ -4,13 +4,15 @@ import Styles from "@/components/styles.module.css";
 import { FaArrowCircleRight } from "react-icons/fa";
 import IconOne from "@/public/static/images/Icon.png";
 import IconTwo from "@/public/static/images/Icon2.png";
+import Image from 'next/image';
+import AboutImage2 from "@/public/static/images/about-image-2.png";
 
 export default function aboutus() {
   return (
     <div className='w-full py-20'>
         <div className='flex w-[1080px] mx-auto'>
             <div className='w-1/2'>
-                <img className='object-cover' src='./static/images/about-image-2.png' alt='about photo' />
+                <Image className='object-cover' src={AboutImage2} alt='about photo' />
             </div>
             <div className='w-1/2 flex flex-col justify-center gap-2 pr-10'>
                 <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>About Us</p>
