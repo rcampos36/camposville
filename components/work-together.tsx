@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaInstagram, FaFacebookF, FaTwitter, FaPinterestP, FaMapMarkerAlt } from "react-icons/fa";
 import ContactImage from "@/public/static/images/Contact-image.png";
-import ContactImageTwo from "@/public/static/images/Contact-image2.png";
+import ContactImageTwo from "@/public/static/images/Contact-Image2.png";
 import MessageIcon from "@/public/static/images/messageIcon.png";
 import CallIcon from "@/public/static/images/call.png";
 import { yellowtail, roboto } from './styles/fonts';
