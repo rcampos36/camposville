@@ -21,7 +21,7 @@ export default function navigation() {
   return (
     <div className={navbar ? 'navbar active' : 'navbar'}>
       <div className={roboto.className}>
-      <div className='lg:hidden'>
+      <div className='lg:hidden z-20'>
           <button className='p-2 white rounded-md outline-none' onClick={() => setMenu(!menu)}>
               {menu ? (
                   <FaTimes className='close w-[30px] h-[30px] bg-inherit stroke-white'/>

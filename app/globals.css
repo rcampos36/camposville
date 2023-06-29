@@ -64,7 +64,7 @@ p {
   .open .main-nav {
     position: absolute;
     left: 0px;
-    top: 100px;
+    top: 0px;
     z-index: 10;
     background: skyblue;
     display: flex;
