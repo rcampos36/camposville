@@ -12,7 +12,7 @@ import Image from 'next/image';
 export default function NewsCards() {
   return (
     <div className='w-[1080px] mx-auto my-20 max-sm:w-full max-sm:px-4'>
-      <div className='flex gap-5 justify-between mb-20 max-sm:flex-col max-sm:gap-52'>
+      <div className='flex gap-5 justify-between mb-20 max-sm:mb-52 max-sm:flex-col max-sm:gap-52'>
         <div className='relative'>
           <Image src={News} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
@@ -38,7 +38,7 @@ export default function NewsCards() {
           </div>
         </div>
       </div>
-      <div className='flex gap-5 justify-between mb-20 max-sm:flex-col max-sm:gap-52'>
+      <div className='flex gap-5 justify-between mb-20 max-sm:mb-52 max-sm:flex-col max-sm:gap-52'>
         <div className='relative'>
           <Image src={NewsThree} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
@@ -64,7 +64,7 @@ export default function NewsCards() {
           </div>
         </div>
       </div>
-      <div className='flex gap-5 justify-between mb-20 max-sm:flex-col max-sm:gap-52'>
+      <div className='flex gap-5 justify-between mb-20 max-sm:mb-52 max-sm:flex-col max-sm:gap-52'>
         <div className='relative'>
           <Image src={NewsFive} alt='news' />
           <div className='absolute top-5 left-5 bg-white rounded-full items-center p-2'>
