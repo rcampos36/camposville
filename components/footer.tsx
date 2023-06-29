@@ -48,7 +48,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t pb-10 pt-2 flex items-center justify-center max-sm:px-4">
+      <div className="border-t pb-10 pt-2 flex items-center justify-center max-sm:px-4 max-sm:w-full">
         <p className="text-xs">Copyright © <strong>Camposville</strong> | Designed by <strong>Media703</strong> Templates - Powered by <strong>Media703</strong></p>
       </div>
     </div>

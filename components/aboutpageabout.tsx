@@ -10,11 +10,11 @@ import AboutImage2 from "@/public/static/images/about-image-2.png";
 export default function aboutus() {
   return (
     <div className='w-full py-20'>
-        <div className='flex w-[1080px] mx-auto'>
-            <div className='w-1/2'>
+        <div className='flex w-[1080px] mx-auto max-sm:flex-col max-sm:w-full max-sm:px-4'>
+            <div className='w-1/2 max-sm:w-full'>
                 <Image className='object-cover' src={AboutImage2} alt='about photo' />
             </div>
-            <div className='w-1/2 flex flex-col justify-center gap-2 pr-10'>
+            <div className='w-1/2 max-sm:w-full flex flex-col justify-center gap-2 pr-10'>
                 <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>About Us</p>
                 <h4 className={`${roboto.className} font-bold text-4xl`}>We do Creative Things for Success</h4>
                 <p className='text-gray-400'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
