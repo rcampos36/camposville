@@ -8,8 +8,8 @@ import { yellowtail, roboto } from './styles/fonts';
 
 export default function WorkTogether() {
   return (
-    <div className='w-[1080px] mx-auto my-20'>
-      <div className="flex gap-5">
+    <div className='w-[1080px] mx-auto my-20 max-sm:w-full max-sm:px-4'>
+      <div className="flex gap-5 max-sm:flex-col">
         <Image className="w-[400px]" src={ContactImage} alt="contact image" />
         <div className="flex flex-col gap-4">
           <h4 className={`${roboto.className} font-bold text-2xl`}>We'd love to talk about how we can work together.</h4>
@@ -38,10 +38,10 @@ export default function WorkTogether() {
           </div>
         </div>
       </div>
-      <div className="my-20 relative">
-        <Image src={ContactImageTwo} alt="contact image" />
-        <div className="absolute top-0 right-60 w-full h-full flex items-center justify-end">
-          <div className="bg-white p-10 rounded-xl w-[300px] flex flex-col gap-2">
+      <div className="my-20 relative max-sm:h-[350px]">
+        <Image className="max-sm:object-cover max-sm:h-full" src={ContactImageTwo} alt="contact image" />
+        <div className="absolute top-0 right-60 max-sm:right-6 w-full h-full flex items-center justify-end">
+          <div className="bg-white p-10 max-sm:p-5 rounded-xl w-[300px] max-sm:w-[350px] flex flex-col gap-2">
             <p className={`${yellowtail.className} yellowtail font-bold text-lg`}>Location</p>
             <h4 className={`${roboto.className} font-bold text-xl`}>Our Farm</h4>
             <p className="text-xs">Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.</p>

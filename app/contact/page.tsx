@@ -10,7 +10,7 @@ export default function () {
       <div className="w-full relative">
         <Image src={ContactBanner} alt="about banner" />
         <div className="absolute top-0 left-0 h-full w-full flex items-center justify-center">
-          <h1 className={`${roboto.className} font-bold text-6xl`}>Contact Us</h1>
+          <h1 className={`${roboto.className} font-bold text-6xl max-sm:text-4xl`}>Contact Us</h1>
         </div>
       </div>
       <WorkTogether />
