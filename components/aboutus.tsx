@@ -8,14 +8,14 @@ import IconTwo from "@/public/static/images/Icon2.png";
 
 export default function aboutus() {
   return (
-    <div className='bg-about-section w-full py-20'>
-        <div className='flex w-[1080px] mx-auto'>
-            <div className='w-1/2'>
+    <div className='bg-about-section w-full py-20 max-sm:px-5'>
+        <div className='flex w-[1080px] mx-auto max-sm:flex-col max-sm:w-full'>
+            <div className='w-1/2 max-sm:w-full'>
                 <img className='object-cover' src={AboutPhoto.src} alt='about photo' />
             </div>
-            <div className='w-1/2 flex flex-col justify-center gap-2'>
+            <div className='w-1/2 max-sm:w-full flex flex-col justify-center gap-2'>
                 <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>About Us</p>
-                <h4 className={`${roboto.className} font-bold text-5xl`}>We Believe in Working Accredited Farmers</h4>
+                <h4 className={`${roboto.className} font-bold text-5xl max-sm:text-4xl`}>We Believe in Working Accredited Farmers</h4>
                 <p className='text-gray-400'>Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
                 <div className='flex flex-col gap-4 mt-4'>
                     <div className='flex gap-4'>
