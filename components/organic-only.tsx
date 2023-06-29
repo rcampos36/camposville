@@ -5,8 +5,8 @@ import Organic from "@/public/static/images/OrganicOnly.jpg";
 
 export default function OrganicOnly() {
   return (
-    <div className='relative w-full pb-20'>
-        <Image src={Organic} alt='organic' />
+    <div className='relative w-full pb-20 max-sm:h-[350px]'>
+        <Image className='max-sm:h-full max-sm:object-cover' src={Organic} alt='organic' />
         <div className='absolute top-0 left-0 w-full mx-auto flex flex-col items-center gap-3 py-20 max-sm:py-4 max-sm:px-4'>
             <p className={`${yellowtail.className} yellowtail text-2xl font-normal`}>Organic Only</p>
             <h4 className={`${roboto.className} font-bold text-4xl max-sm:text-3xl`}>Everyday Fresh & Clean</h4>
